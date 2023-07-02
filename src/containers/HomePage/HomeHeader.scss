@@ -1,0 +1,211 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0, 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10000;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+
+            .header-logo {
+                background: url('../../assets/logo.svg') center center no-repeat;
+                height: 80%;
+                width: 80%;
+                cursor: pointer;
+            }
+
+            i {
+                padding-left: 5px;
+                font-size: 25px;
+                color: grey;
+                cursor: pointer;
+            }
+        }
+
+        .center-content {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+                cursor: pointer;
+
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .support {
+                padding-right: 40px;
+                display: flex;
+                align-items: center;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                    cursor: pointer;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: orange;
+                    }
+
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .language-en {
+                margin: 0 5px;
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: #3743ea;
+                    }
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+            }
+
+        }
+    }
+}
+
+.home-header-banner {
+    background-image: url('../../assets/header-backgroud.jpg');
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        background-image: linear-gradient(rgba(126, 126, 126, 0.25), rgba(255, 255, 255, 0.1));
+        height: 60%;
+        padding-top: 10px;
+
+        .title1 {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px auto;
+            padding: 10px;
+            border-radius: 20px;
+            background: #f7d800;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 400px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .content-down {
+        height: 50%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), );
+
+        .options {
+            text-align: center;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+
+            .option-child {
+                width: 110px;
+
+                .icon-child {
+                    background: white;
+                    height: 70px;
+                    width: 70px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+                    cursor: pointer;
+
+                    i {
+                        color: #49bce2;
+                        font-size: 40px;
+                    }
+                }
+
+                .text-child {
+                    font-size: 18px;
+                    font-weight: 540;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #49bce2;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
