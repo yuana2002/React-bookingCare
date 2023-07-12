@@ -77,6 +77,20 @@
             "detail": "See details",
             "payment": "The patient can pay the cost in the form of ",
             "hide-price": "Hide"
+        },
+        "booking-modal": {
+            "title": "Notice of appointment of medical examination",
+            "fullName": "First and last name",
+            "phoneNumber": "Phone number",
+            "email": "Email address",
+            "address": "Address",
+            "reason": "Reason for examination (symptoms)",
+            "birthday": "Ngày sinh",
+            "gender": "Gender",
+            "confirm": "Confirm",
+            "cancel": "Cancel",
+            "priceBooking": "Free booking",
+            "examination-price": "Examination price"
         }
     },
     "admin": {
