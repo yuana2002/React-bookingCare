@@ -56,7 +56,9 @@
     },
     "homepage": {
         "outstanding-doctor": "Outstanding Doctor",
-        "more-infor": "see more"
+        "more-infor": "see more",
+        "speciality-poplular": "Manage Doctor Schedule",
+        "see-more": "See more"
     },
     "manage-schedule": {
         "title": "Manage doctor examination plan",

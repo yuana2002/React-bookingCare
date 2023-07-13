@@ -56,7 +56,9 @@
     },
     "homepage": {
         "outstanding-doctor": "Bác sĩ nổi bật",
-        "more-infor": "Xem thêm"
+        "more-infor": "Xem thêm",
+        "speciality-poplular": "Chuyên khoa phổ biến",
+        "see-more": "Xem thêm"
     },
     "manage-schedule": {
         "title": "Quản lí kế hoạch khám bệnh bác sĩ",
