@@ -8,6 +8,7 @@ class HomeFooter extends Component {
         return (
             <div className='home-footer'>
                 <p>&copy; 2023 Bookingcare.com More information.<a target='blank' href='https://youtu.be/FyDQljKtWnI'>  &#8594; Click here &#8592;</a></p>
+
             </div>
         );
     }

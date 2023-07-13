@@ -16,6 +16,7 @@ import HomePage from './HomePage/HomePage.js';
 import CustomScrollbars from '../components/CustomScrollbars';
 import DetailDoctor from './Pentient/Doctor/DetailDoctor';
 import Doctor from '../routes/Doctor';
+import VerifyEmail from './Pentient/VerifyEmail';
 
 class App extends Component {
 
@@ -52,6 +53,8 @@ class App extends Component {
 
                                     <Route path={path.HOMEPAGE} component={HomePage} />
                                     <Route path={path.DETAIL_DOCTOR} component={DetailDoctor} />
+                                    <Route path={path.VERIFY_EMAIL_DOCTOR} component={VerifyEmail} />
+
                                 </Switch>
                             </CustomScrollbars>
                         </div>
