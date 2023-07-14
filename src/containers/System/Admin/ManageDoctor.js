@@ -333,7 +333,7 @@ class ManageDoctor extends Component {
                         <Select
                             // onChange={(event) => this.handleOnChangeText(event, 'note')}
                             options={this.state.listSpecialty}
-                            value={this.state.selectClinic}
+                            value={this.state.selectSpecialty}
                             placeholder={<FormattedMessage id="admin.manage-doctor.speciality" />}
                             onChange={this.handleChangeSelectDoctorInfor}
                             name="selectSpecialty"
