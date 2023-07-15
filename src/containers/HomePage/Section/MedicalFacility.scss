@@ -1,0 +1,13 @@
+.clinic-child {
+    cursor: pointer;
+
+    .bg-image {}
+
+    .clinic-name {
+        padding: 12px 0;
+
+        &:hover {
+            color: rgb(98, 98, 241);
+        }
+    }
+}
